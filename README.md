@@ -1,6 +1,6 @@
 # Employee Management Dashboard
 
-A production-quality internal Employee Management Dashboard built with React, TypeScript, MUI, Redux Toolkit, React Query, and Axios.
+An internal Employee Management Dashboard built with React, TypeScript, MUI, Redux Toolkit, React Query, and Axios.
 
 ## Features
 
@@ -35,14 +35,20 @@ VITE_API_URL=http://localhost:3001
 
 ### Running the App
 
-Start the mock API server and the dev server in **two separate terminals**:
+Start the mock API server and the dev server by running:
+
+```bash
+npm run dev
+```
+
+or in **two separate terminals**:
 
 ```bash
 # Terminal 1 — Mock API (json-server on port 3001)
 npm run api
 
 # Terminal 2 — Vite dev server
-npm run dev
+npm run start
 ```
 
 The app will be available at `http://localhost:5173`.
@@ -51,10 +57,13 @@ The app will be available at `http://localhost:5173`.
 
 | Command                 | Description                         |
 | ----------------------- | ----------------------------------- |
-| `npm run dev`           | Start Vite dev server               |
+| `npm run dev`           | Start both Vite and json servers    |
+| `npm run start`         | Start Vite dev server               |
 | `npm run api`           | Start json-server mock API          |
 | `npm run build`         | TypeScript check + production build |
+| `npm run format`        | Run Prettier for formating          |
 | `npm run lint`          | Run ESLint                          |
+| `npm run lint:fix`      | Run ESLint with fixes               |
 | `npm run test`          | Run Vitest in watch mode            |
 | `npm run test:coverage` | Run tests with coverage report      |
 | `npm run preview`       | Preview production build            |

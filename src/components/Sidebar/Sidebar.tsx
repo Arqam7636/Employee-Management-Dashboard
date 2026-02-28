@@ -1,6 +1,6 @@
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight'
-import PeopleIcon from '@mui/icons-material/People'
+import DashboardIcon from '@mui/icons-material/Dashboard'
 import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
 import Drawer from '@mui/material/Drawer'
@@ -73,13 +73,13 @@ export default function Sidebar({ collapsed, onToggle }: Readonly<SidebarProps>)
           justifyContent: collapsed ? 'center' : 'flex-start',
         }}
       >
-        <PeopleIcon sx={{ color: 'primary.main', fontSize: 28 }} />
+        <DashboardIcon sx={{ color: 'primary.main', fontSize: 28 }} />
         {!collapsed && (
           <Typography
             variant="h6"
             sx={{ fontWeight: 700, whiteSpace: 'nowrap', color: 'text.primary' }}
           >
-            EMD
+            ISX Admin
           </Typography>
         )}
       </Box>
@@ -119,9 +119,11 @@ export default function Sidebar({ collapsed, onToggle }: Readonly<SidebarProps>)
               {!collapsed && (
                 <ListItemText
                   primary={item.label}
-                  primaryTypographyProps={{
-                    fontSize: '0.875rem',
-                    fontWeight: isActive ? 600 : 400,
+                  slotProps={{
+                    primary: {
+                      variant: 'body2',
+                      sx: { fontWeight: isActive ? 600 : 400 },
+                    },
                   }}
                 />
               )}
@@ -157,7 +159,9 @@ export default function Sidebar({ collapsed, onToggle }: Readonly<SidebarProps>)
             {!collapsed && (
               <ListItemText
                 primary={item.label}
-                primaryTypographyProps={{ fontSize: '0.875rem' }}
+                slotProps={{
+                  primary: { variant: 'body2' },
+                }}
               />
             )}
           </ListItemButton>
