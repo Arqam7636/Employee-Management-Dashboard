@@ -1,0 +1,85 @@
+{
+  "employees": [
+    {
+      "name": "David Browna",
+      "email": "david.brown@company.com",
+      "position": "DevOps Engineer",
+      "salary": 98000,
+      "startDate": "2022-11-20",
+      "employmentType": "Full-time",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "Eva Martinez",
+      "email": "eva.martinez@company.com",
+      "position": "QA Engineer",
+      "salary": 82000,
+      "startDate": "2024-05-08",
+      "employmentType": "Part-time"
+    },
+    {
+      "id": "6",
+      "name": "Frank Lee",
+      "email": "frank.lee@company.com",
+      "position": "Frontend Developer",
+      "salary": 91000,
+      "startDate": "2023-09-12",
+      "employmentType": "Full-time"
+    },
+    {
+      "id": "7",
+      "name": "Grace Chen",
+      "email": "grace.chen@company.com",
+      "position": "Data Analyst",
+      "salary": 87000,
+      "startDate": "2024-02-28",
+      "employmentType": "Intern"
+    },
+    {
+      "id": "8",
+      "name": "Henry Wilson",
+      "email": "henry.wilson@company.com",
+      "position": "Backend Developer",
+      "salary": 96000,
+      "startDate": "2023-01-05",
+      "employmentType": "Full-time"
+    },
+    {
+      "id": "9",
+      "name": "Ivy Taylor",
+      "email": "ivy.taylor@company.com",
+      "position": "Project Manager",
+      "salary": 100000,
+      "startDate": "2022-08-15",
+      "employmentType": "Full-time"
+    },
+    {
+      "id": "10",
+      "name": "Jack Anderson",
+      "email": "jack.anderson@company.com",
+      "position": "Full Stack Developer",
+      "salary": 110000,
+      "startDate": "2024-03-20",
+      "employmentType": "Contract"
+    },
+    {
+      "id": "11",
+      "name": "Karen Thomas",
+      "email": "karen.thomas@company.com",
+      "position": "Tech Lead",
+      "salary": 125000,
+      "startDate": "2021-07-01",
+      "employmentType": "Full-time"
+    },
+    {
+      "id": "12",
+      "name": "Leo Garcia",
+      "email": "leo.garcia@company.com",
+      "position": "Security Engineer",
+      "salary": 108000,
+      "startDate": "2024-06-10",
+      "employmentType": "Part-time"
+    }
+  ]
+}

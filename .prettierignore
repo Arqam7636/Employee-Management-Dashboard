@@ -1,0 +1,5 @@
+dist
+node_modules
+build
+CLAUDE_SKILLS.md
+CLAUDE_INSTRUCTIONS.md

@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Row flash animation for DataGrid after create/update */
+@keyframes row-flash {
+  0% {
+    background-color: rgba(124, 58, 237, 0.16);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.row--flash {
+  animation: row-flash 1.5s ease-out;
+}
